@@ -1,0 +1,21 @@
+/* style rules */
+
+img {
+    width: 400px;
+}
+
+.red-border {
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    text-align: center;
+}
+
+.background-image {
+    background-image: url(photos/background_pic.jpg);
+
+}
+
+#someuniqueID {
+    width: 20 px;
+}
