@@ -4,18 +4,52 @@ img {
     width: 400px;
 }
 
-.red-border {
-    border-color: red;
-    border-width: 3px;
-    border-style: solid;
+.center-text {
+    color: beige;
     text-align: center;
+    font-size: 120px;
+}
+
+.passion {
+    text-align: center;
+}
+
+.welcome-message {
+    color: beige;
+    text-align: center;
+    font-size: 40px;
+}
+
+.green-background {
+    background-color: #485e4b;
 }
 
 .background-image {
     background-image: url(photos/background_pic.jpg);
+    background-size: cover;
+    padding: 10px;
 
 }
 
-#someuniqueID {
-    width: 20 px;
+.center {
+    margin: auto;
+    width: 60%;
+    border: 5px solid rgb(95, 49, 49, .9);
+    padding: 10px;
 }
+
+.welcomeBackground {
+    background-color: hsla(27, 95%, 92%);
+}
+
+.text-background {
+    display: inline-block;
+    background-color: hsla(27, 95%, 92%, .5);
+    padding: 2px;
+}
+
+/* #welcomeMessage {
+    display: inline-block;
+    background-color: hsla(27, 95%, 92%, .5);
+    padding: 2px;
+} */
