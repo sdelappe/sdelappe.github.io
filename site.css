@@ -1,55 +1,64 @@
-/* style rules */
-
-img {
-    width: 400px;
+.green-background{
+    background-color: #485e4b;
 }
 
-.center-text {
-    color: beige;
+#hi-text{
+    color: white;
     text-align: center;
     font-size: 120px;
 }
 
-.passion {
-    text-align: center;
-}
-
-.welcome-message {
-    color: beige;
+#welcome-text{
+    color: white;
     text-align: center;
     font-size: 40px;
 }
 
-.green-background {
-    background-color: #485e4b;
-}
-
-.background-image {
-    background-image: url(photos/background_pic.jpg);
-    background-size: cover;
-    padding: 10px;
-
-}
-
-.center {
+#intro-text{
+    text-align: center;
     margin: auto;
-    width: 60%;
-    border: 5px solid rgb(95, 49, 49, .9);
+    width: 80%;
     padding: 10px;
+    font-size: large;
 }
 
-.welcomeBackground {
-    background-color: hsla(27, 95%, 92%);
+.center{
+    text-align: center;
 }
 
-.text-background {
-    display: inline-block;
-    background-color: hsla(27, 95%, 92%, .5);
-    padding: 2px;
+/* navbar testing */
+
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-/* #welcomeMessage {
-    display: inline-block;
-    background-color: hsla(27, 95%, 92%, .5);
-    padding: 2px;
-} */
+li {
+    display: inline;
+    margin: 4px;
+    color: white;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
