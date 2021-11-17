@@ -1,0 +1,61 @@
+.green-background{
+    background-color: #485e4b;
+}
+
+#hi-text{
+    color: beige;
+    text-align: center;
+    font-size: 120px;
+}
+
+#welcome-text{
+    color: beige;
+    text-align: center;
+    font-size: 40px;
+}
+
+#intro-text{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: large;
+}
+
+.center{
+    text-align: center;
+}
+
+/* navbar testing */
+
+#header {
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    height: 3em;
+    line-height: 3em;
+    box-shadow: 0 0 0.15em 0 rgb(0 0 0 / 10%);
+}
+
+#header nav {
+    position: absolute;
+    right: 0.5em;
+    top: 0;
+    height: 3em;
+    line-height: 3em;
+}
+
+li {
+    display: inline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#header nav ul {
+    margin: 0;
+}
