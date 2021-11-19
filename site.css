@@ -2,6 +2,10 @@
     background-color: #485e4b;
 }
 
+.grey-background {
+    background-color: gray;
+}
+
 #hi-text{
     color: white;
     text-align: center;
@@ -17,15 +21,59 @@
 #intro-text{
     text-align: center;
     margin: auto;
-    width: 80%;
+    width: 75%;
     padding: 10px;
     font-size: large;
+}
+
+#connect-text {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.bottom-text {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    padding: 3px;
 }
 
 .center{
     text-align: center;
 }
 
+.resume {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: solid black;
+}
+
+.logo {
+    width: 100%;
+    max-width: 100px;
+}
+
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+}
+
+#bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+}
 /* navbar testing */
 
 .nav-list{
@@ -61,6 +109,12 @@
     margin-bottom: 50px;
 }
 
+.connect-layout {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 div {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -71,4 +125,3 @@ div {
     display: block;
     list-style: circle;
 }
-  
